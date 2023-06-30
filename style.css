@@ -1,0 +1,56 @@
+.info{
+    background-color:white;
+    padding: 20px 50px 20px 50px;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    text-align: left;
+	margin-bottom: 40px;
+}
+.title{
+    text-align: center;
+    color: black;
+}
+body{
+    text-align: center;
+    background-color: royalblue;
+}
+label{
+    display: inline-block;
+}
+button{
+    color: white;
+    background-color: black;
+    width: 100%;
+    font-family: inherit;
+    font-size: 20px;
+    margin-top: 50px;
+	margin-bottom: 21px;
+}
+textarea{
+    width: 100%;
+    font-family: inherit;
+    font-size: 20px;
+    margin-top: 15px;
+}
+#comment{
+    width: 100%;
+    font-family: inherit;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.option{
+    text-align: left;
+	margin-bottom: 25px;
+	font-family: inherit;
+	padding: 10px;
+	display: block;
+	width: 95%;
+}
+#role{
+    font-style: 20px;
+    width: 98%;
+    height: 70%;
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Application Form</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <main class="all">
+            <div class="info">
+                <div class="title">
+                    <h1>Course Application Form</h1>
+                    <small>Please fill in the form above to apply for this course.</small>
+                </div>
+                <!--creating a form-->
+                <form id="form">
+                    <div class="details">
+                        <label id="label-name" for="name">
+                            Name : 
+                        </label>
+                        <br><br>
+                        <!--input the name-->
+                        <input type="text" id="name" placeholder="Enter Your Name"/><small>(Required)</small>
+                         <br><br>
+                         <label id="label-number" for="number">
+                            Number Phone : 
+                        </label>
+                        <br><br>
+                        <!--input the number-->
+                        <input type="text" id="number" placeholder="Enter Your Number Phone"/><small>(Required)</small>
+                        <br><br>
+                        <label id="label-email" for="email">
+                            Email : 
+                        </label>
+                        <br><br>
+                        <!--input the email-->
+                        <input type="email" id="email" placeholder="Enter Your Email"/><small>(Required)</small>
+                        <br><br>
+                        <label for="age" id="age">
+                            Age :  
+                        </label>
+                        <br><br>
+                        <!--input the age-->
+                        <input type="number" placeholder="Enter Your Age" id="age" /><small>(Required)</small>
+                        <br><br>
+                        <label>
+                            What's Your Level In This Field?
+                        </label>
+                        <br><br>
+                        <label for="recommend-1"><input 
+                        type="radio" id="recommend-1" name="recommend"/>A Beginner.</label>
+                        <br><br>
+                        <label for="recommend-2"><input 
+                        type="radio" id="recommend-2" name="recommend"/>An Intermediate.</label>
+                        <br><br>
+                        <label for="recommend-3"><input
+                        type="radio" id="recommend-3" name="recommend"/>An Advanced.</label>
+                        <br><br>
+                        <label for="role" id="label-role">
+                            Level Of Education : 
+                        </label>
+                        <br><br>
+                        <select id="role" name="role">
+                            <option value="select">Select One Item</option>
+                            <option value="high-school-student">High School Student</option>
+                            <option value="preparatory-school-student">Preparatory School Student</option>
+                            <option value="college-student">College Student</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <br><br>
+                        <label for="text" id="text">
+                            Why Do You Want To Study This Course?
+                        </label>
+                        <br><br>
+                        <!--input the reasons-->
+                        <textarea name="reason" id="text"
+                            placeholder="write your reasons">
+                            </textarea><small>(Optional)</small>
+                        <br><br>
+                        <label>
+                            Which Languages Do You Know? <small>(check all that apply)</small>
+                        </label>
+                        <!--choose from the options above.-->
+                        <br><br>
+                        <div class="option">
+                            <label for="inp-1">
+                                <input type="checkbox" name="inp">Python
+                            </label>
+                            <br>
+                            <label for="inp-2">
+                                <input type="checkbox" name="inp">C++
+                            </label>
+                            <br>
+                            <label for="inp-3">
+                                <input type="checkbox" name="inp">JavaScript
+                            </label>
+                            <br>
+                            <label for="inp-4">
+                                <input type="checkbox" name="inp">Swift
+                            </label>
+                            <br>
+                            <label for="inp-5">
+                                <input type="checkbox" name="inp">Rust
+                            </label>
+                            <br>
+                            <label for="inp-6">
+                                <input type="checkbox" name="inp">Kotlin
+                            </label>
+                            <br>
+                            <label for="inp-7">
+                                <input type="checkbox" name="inp">Ruby
+                            </label>
+                            <br>
+                            <label for="inp-8">
+                                <input type="checkbox" name="inp">HTML
+                            </label>
+                            <br>
+                            <label for="inp-9">
+                                <input type="checkbox" name="inp">CSS
+                            </label>
+                            <br>
+                            <label for="inp-10">
+                                <input type="checkbox" name="inp">Dart
+                            </label>
+                        </div>
+                           <br>
+                            <label for="comment">
+                                Any Comments : 
+                            </label>
+                            <br>
+                            <textarea name="comment" id="comment"
+                            placeholder="Enter Your Comment Here">
+                            </textarea>
+                        </div>
+                    </form>
+                    <br>
+                    <button type="submit" value="submit">
+                        Submit
+                    </button>
+            </div>
+    </main>
+    </body>
+</html>
